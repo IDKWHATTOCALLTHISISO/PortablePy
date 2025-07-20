@@ -14,6 +14,7 @@ if "!command!"=="exit" exit /b
 if "!command:~0,6!"=="python" goto disabled
 if "!command:~0,3!"=="pip" goto disabled
 !command!
+pause
 goto loop
 
 :help-page
