@@ -20,6 +20,7 @@ goto loop
 echo Use .\ if you want to run a command from the current directory
 echo Use the command exit to return to cmd
 echo run the command ? for help
+echo For nano run ..\nano\nano
 goto pyhelp
 
 :disabled
