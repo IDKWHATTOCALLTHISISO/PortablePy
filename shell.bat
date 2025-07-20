@@ -1,6 +1,7 @@
 @echo off
 setlocal enabledelayedexpansion
 
+cd python
 for /f "delims=" %%i in ('whoami') do set USER=%%i
 goto help-page
 
