@@ -13,6 +13,7 @@ if "!command!"=="?" goto help-page
 if "!command!"=="exit" exit /b
 if "!command:~0,6!"=="python" goto disabled
 if "!command:~0,3!"=="pip" goto disabled
+if "!command!"=="ls" dir
 !command!
 pause
 goto loop
